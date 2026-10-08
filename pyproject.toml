@@ -1,0 +1,28 @@
+[project]
+name = "nyctransit"
+version = "0.1.0"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "pandas",
+    "pyarrow",
+    "duckdb",
+    "numpy",
+    "scipy",
+    "statsmodels",
+    "matplotlib",
+    "networkx",
+    "geopandas",
+    "pyproj<3.7",  # 3.7+ arm64 wheels need macOS 14; this Mac is on 13
+    "osmnx",
+    "gtfs-kit",
+    "pyjanitor",
+    "jupyterlab",
+    "ipykernel",
+]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

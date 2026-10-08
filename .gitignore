@@ -1,0 +1,13 @@
+# data: rebuild from data/raw + scripts, never commit
+data/
+references/data/
+references/*.zip
+
+# python / jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+
+# os
+.DS_Store

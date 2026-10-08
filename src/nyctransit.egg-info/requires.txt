@@ -1,0 +1,15 @@
+pandas
+pyarrow
+duckdb
+numpy
+scipy
+statsmodels
+matplotlib
+networkx
+geopandas
+pyproj<3.7
+osmnx
+gtfs-kit
+pyjanitor
+jupyterlab
+ipykernel

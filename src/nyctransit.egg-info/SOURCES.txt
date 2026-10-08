@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+src/nyctransit/__init__.py
+src/nyctransit.egg-info/PKG-INFO
+src/nyctransit.egg-info/SOURCES.txt
+src/nyctransit.egg-info/dependency_links.txt
+src/nyctransit.egg-info/requires.txt
+src/nyctransit.egg-info/top_level.txt
